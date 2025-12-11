@@ -25,16 +25,7 @@ Here's a quick example of using dwc_tools:
 
 .. code-block:: python
 
-   from dwc_tools import validate_dwc_record, format_scientific_name
-
-   # Validate a Darwin Core record
-   record = {"scientificName": "Homo sapiens"}
-   is_valid = validate_dwc_record(record)
-   print(f"Record is valid: {is_valid}")
-
-   # Format a scientific name
-   name = format_scientific_name("Homo", "sapiens", "Linnaeus, 1758")
-   print(name)  # Output: Homo sapiens Linnaeus, 1758
+   TODO
 
 Indices and tables
 ==================
