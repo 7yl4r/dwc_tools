@@ -16,15 +16,7 @@ pip install dwc-tools
 ## Quick Start
 
 ```python
-from dwc_tools import validate_dwc_record, format_scientific_name
-
-# Validate a Darwin Core record
-record = {"scientificName": "Homo sapiens"}
-is_valid = validate_dwc_record(record)
-
-# Format a scientific name
-name = format_scientific_name("Homo", "sapiens", "Linnaeus, 1758")
-print(name)  # Output: Homo sapiens Linnaeus, 1758
+# TODO
 ```
 
 ## Development
@@ -52,9 +44,7 @@ sphinx-build -b html . _build/html
 
 ## Features
 
-- Validate Darwin Core records
-- Format scientific names according to standards
-- Extensible for additional DwC operations
+- Download Darwin Core records from multiple sources (OBIS, GBIF)
 
 ## License
 
