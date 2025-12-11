@@ -54,7 +54,4 @@ python_classes = ["Test*"]
 python_functions = ["test_*"]
 addopts = [
     "--verbose",
-    "--cov=dwc_tools",
-    "--cov-report=term-missing",
-    "--cov-report=xml",
 ]
