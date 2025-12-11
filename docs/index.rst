@@ -16,7 +16,7 @@ Welcome to dwc_tools's documentation!
 Installation
 ============
 
-.. include:: installation.rst
+See the :doc:`installation` page for installation instructions.
 
 Quick Start
 ===========
